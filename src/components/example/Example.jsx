@@ -9,11 +9,11 @@ export default function Copyright() {
   return (
     <div className={classNames(styles.wrapper)}>
       <Container className={classNames(styles.container)} maxWidth="xl">
-          <LogoCreate/>
         <Paper className={classNames(styles.paper)}>
-          <Link href="/about" color="secondary">
+          <LogoCreate/>
+          {/* <Link href="/about" color="secondary">
             Hi
-          </Link>
+          </Link> */}
         </Paper>
       </Container>
     </div>
