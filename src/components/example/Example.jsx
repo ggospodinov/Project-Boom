@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Link from "../link/Link";
 import styles from "./Example.module.scss";
 import classNames from "classnames";
-import LogoCreate from "../LogoComponent/logo";
+import LogoCreate from "../LogoComponent/Logo.jsx";
 
 export default function Copyright() {
   return (
