@@ -45,11 +45,11 @@ import React from "react";
 // import image from "../../../public/images/logo.svg"
 // import image from "../../../public/images/logo.svg"
 
-function Logo(props){
+const Logo =({type})=>{
   
     return(
       
-      <div>{props.type}
+      <div>{type}
           
       </div>
 //       <svg width="135" height="62" viewBox="0 0 135 62" fill="none" xmlns="http://www.w3.org/2000/svg">
