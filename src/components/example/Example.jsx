@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Link from "../link/Link";
 import styles from "./Example.module.scss";
 import classNames from "classnames";
-import LogoCreate from "../logo/Logo";
+import Logo from "../logo/Logo";
 // import LogoCreate1 from "../LogoComponent/Logo.jsx";
 
 
@@ -12,8 +12,8 @@ export default function Copyright() {
     <div className={classNames(styles.wrapper)}>
       <Container className={classNames(styles.container)} maxWidth="xl">
         <Paper className={classNames(styles.paper)}>
-          <LogoCreate />
-          <LogoCreate />
+          <Logo /> 
+          <Logo />
          
           {/* <Link href="/about" color="secondary">
             Hi
