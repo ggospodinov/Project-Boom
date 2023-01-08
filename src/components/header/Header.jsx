@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import Logo from "../logo/Logo"
 import SearchIcon from '@mui/icons-material/Search';
 import {  grey } from '@mui/material/colors';
-import { Typography } from '@mui/material';
+import { Typography,TextField } from '@mui/material';
 import styles from "./Header.module.scss";
 import classNames from "classnames";
 
@@ -38,13 +38,14 @@ export default function Header() {
             <Logo type ={image} />
           </Item>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={7}>
           <Item >       
             <SearchIcon  
             styled ="a"
             sx={{ color: grey[900] } } 
             fontSize="large" />
-           GGGGGGGGGGGGGGGGGGGG
+           <TextField   label="Find items,users and activities"   id="Find items,users and activities"  multiline
+          maxRows={4}/>
            </Item>
         </Grid>
         <Grid item xs={3}>
@@ -52,7 +53,7 @@ export default function Header() {
             <nav className={classNames(styles.task)}>
               <a href='#'>Home</a>
               <a href='#'>Activity</a>
-              <a href='#'>EXPLORE</a>
+              <a className={classNames(styles.p)}href='#'>EXPLORE</a>
             </nav>
              </Item>
           

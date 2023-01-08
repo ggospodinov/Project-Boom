@@ -1,6 +1,13 @@
 .task {
     display: grid;
     grid-template-columns:repeat(3,1fr);
+    font-size:medium;
+    padding: 20px;
     justify-content: center;
     justify-items: center;
+}
+.p{
+    background-color: blue;
+    background-size: 1000px 1000px;
+    border-radius: 1px;
 }
