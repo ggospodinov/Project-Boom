@@ -1,13 +1,11 @@
-.task {
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    font-size:medium;
-    padding: 20px;
+@use "../../styles/colors";
+
+.header_container {
+    display: flex !important;
+    align-items: center;
     justify-content: center;
-    justify-items: center;
 }
-.p{
-    background-color: blue;
-    background-size: 1000px 1000px;
-    border-radius: 1px;
+
+.header_menu_button {
+    color: #ffffff !important;
 }
