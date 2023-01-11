@@ -14,7 +14,7 @@ export default function Copyright() {
 
  return (
    <div className={classNames(styles.wrapper)}>
-     <Header/>
+     {/* <Header/> */}
       <Container className={classNames(styles.container)} maxWidth="xl">
         <Paper className={classNames(styles.paper)}>
        
