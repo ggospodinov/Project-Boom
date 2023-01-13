@@ -1,11 +1,13 @@
 import * as React from 'react';
 
+
 import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
-import Container from "@mui/material/Container";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
+
 
 import Logo from "../logo/Logo"
 
@@ -127,10 +129,10 @@ export default function Header() {
                 </Grid>
             </Grid>
         </Box>
-    </Container>
+     </Container> 
 );
+ }
     
 
 
   
-}
