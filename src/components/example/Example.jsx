@@ -3,7 +3,8 @@ import Container from "@mui/material/Container";
 import Link from "../link/Link";
 import styles from "./Example.module.scss";
 import classNames from "classnames";
-
+import Avatar from "../avatar/Avatar"
+ 
 
 import Header from "../header/Header"
 
@@ -23,7 +24,12 @@ export default function Copyright() {
             Hi
           </Link>  */}
         {/* </Paper> */}
-     <Header/>
+     {/* <Header/> */}
+     <Avatar
+                    url={"../images/avatar.png"}
+                    size={200}
+                    verified={true}
+                />
       </Container>
     </div>
   );
